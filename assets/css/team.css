@@ -339,3 +339,108 @@ body {
     margin-left: 0px;
   }
 }
+keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Navigation Animation */
+#nav {
+  animation: fadeInDown 1s ease-out forwards;
+}
+
+/* Executive Board Heading Animation */
+.team-head-text {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  animation: fadeIn 1.5s ease-out 0.5s forwards;
+  opacity: 0;
+}
+
+/* Card Animation */
+.card-container {
+  width: 280px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  opacity: 0;
+  animation: slideUp 1s ease-out forwards;
+}
+
+.card-container:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.card-container:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.card-container:nth-child(4) {
+  animation-delay: 0.6s;
+}
+
+.card-container:nth-child(5) {
+  animation-delay: 0.8s;
+}
+
+.card-container:nth-child(6) {
+  animation-delay: 1s;
+}
+
+.card-container:nth-child(7) {
+  animation-delay: 1.2s;
+}
+
+.card-container:nth-child(8) {
+  animation-delay: 1.4s;
+}
+
+/* Adjusted for Responsive Design */
+@media (max-width: 500px) {
+  .card-container {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+  }
+}
