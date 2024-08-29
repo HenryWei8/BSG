@@ -67,7 +67,25 @@
   font-size: 0.7em;
   color: white;
 }
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 1.5em;
+  }
 
+  .about-text {
+    font-size: 0.9em;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 1.2em;
+  }
+
+  .about-text {
+    font-size: 1em;
+  }
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
