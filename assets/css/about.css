@@ -69,21 +69,21 @@
 }
 @media (max-width: 768px) {
   .about-title {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 
   .about-text {
-    font-size: 0.9em;
+    font-size: 0.9rem;
   }
 }
 
 @media (max-width: 480px) {
   .about-title {
-    font-size: 1.2em;
+    font-size: 1.5rem;
   }
 
   .about-text {
-    font-size: 1em;
+    font-size: 0.9rem;
   }
 }
 @keyframes fadeIn {
