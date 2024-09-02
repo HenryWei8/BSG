@@ -2302,12 +2302,12 @@ header .icon.circled {
 
 #header {
   position: relative;
-  /* background-image: url("../../images/head.jpg"); */
+  background-image: url("../../images/head.jpg");
   background-color: #3b3b3b;
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   padding: 7.5em 0 2em 0;
   cursor: default;
