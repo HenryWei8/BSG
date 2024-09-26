@@ -1,11 +1,47 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("fontawesome-all.min.css");
 
-/*
-	Helios by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+@media screen and (max-width: 1024px) {
+  /* Adjust font size for tablets */
+  .carousel article header h3 {
+    font-size: 1em !important;
+    line-height: 1.2em !important;
+  }
+
+  .carousel article p {
+    font-size: 0.9em !important;
+    line-height: 1.4em !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* Adjust font size for smaller devices */
+  .carousel article header h3 {
+    font-size: 0.9em !important;
+    line-height: 1.1em !important;
+  }
+
+  .carousel article p {
+    font-size: 0.8em !important;
+    line-height: 1.3em !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /* Adjust font size and reduce spacing for mobile devices */
+  .carousel article header h3 {
+    font-size: 0.8em !important;
+    line-height: 1em !important;
+    letter-spacing: -0.5px !important; /* Reduces space between characters */
+  }
+
+  .carousel article p {
+    font-size: 0.7em !important;
+    line-height: 1.2em !important;
+    letter-spacing: -0.5px !important; /* Reduces space between characters */
+    word-spacing: -1px !important; /* Reduces space between words */
+  }
+}
 
 html,
 body,
