@@ -2,44 +2,57 @@
 @import url("fontawesome-all.min.css");
 
 @media screen and (max-width: 1024px) {
-  /* Adjust font size for tablets */
   .carousel article header h3 {
     font-size: 1em !important;
-    line-height: 1.2em !important;
+    line-height: 1.4em !important;
+    margin-bottom: 1em !important;
   }
 
   .carousel article p {
     font-size: 0.9em !important;
-    line-height: 1.4em !important;
+    line-height: 1.6em !important;
+    margin-bottom: 1em !important;
+  }
+
+  .carousel article {
+    padding: 1em !important;
   }
 }
 
 @media screen and (max-width: 768px) {
-  /* Adjust font size for smaller devices */
   .carousel article header h3 {
     font-size: 0.9em !important;
-    line-height: 1.1em !important;
+    line-height: 1.4em !important;
+    margin-bottom: 1em !important;
   }
 
   .carousel article p {
     font-size: 0.8em !important;
-    line-height: 1.3em !important;
+    line-height: 1.5em !important;
+    margin-bottom: 1em !important;
+  }
+
+  .carousel article {
+    padding: 1em !important;
   }
 }
 
 @media screen and (max-width: 480px) {
-  /* Adjust font size and reduce spacing for mobile devices */
   .carousel article header h3 {
     font-size: 0.8em !important;
-    line-height: 1em !important;
-    letter-spacing: -0.5px !important; /* Reduces space between characters */
+    line-height: 1.3em !important;
+    letter-spacing: -0.5px !important;
+    margin-bottom: 0.8em !important;
   }
 
   .carousel article p {
     font-size: 0.7em !important;
-    line-height: 1.2em !important;
-    letter-spacing: -0.5px !important; /* Reduces space between characters */
-    word-spacing: -1px !important; /* Reduces space between words */
+    line-height: 1.4em !important;
+    margin-bottom: 0.8em !important;
+  }
+
+  .carousel article {
+    padding: 1em !important;
   }
 }
 
