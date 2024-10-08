@@ -39,16 +39,16 @@
 
 @media screen and (max-width: 480px) {
   .carousel article header h3 {
-    font-size: 0.8em !important;
-    line-height: 1.3em !important;
+    font-size: 0.6em !important;
+    line-height: 1em !important;
     letter-spacing: -0.5px !important;
-    margin-bottom: 0.8em !important;
+    margin-bottom: 0.6em !important;
   }
 
   .carousel article p {
-    font-size: 0.7em !important;
-    line-height: 1.4em !important;
-    margin-bottom: 0.8em !important;
+    font-size: 0.5em !important;
+    line-height: 1em !important;
+    margin-bottom: 0.6em !important;
   }
 
   .carousel article {
