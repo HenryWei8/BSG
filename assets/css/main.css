@@ -39,16 +39,16 @@
 
 @media screen and (max-width: 480px) {
   .carousel article header h3 {
-    font-size: 0.6em !important;
+    font-size: 0.8em !important;
     line-height: 1em !important;
-    letter-spacing: -0.5px !important;
+    letter-spacing: -0px !important;
     margin-bottom: 0.4em !important;
   }
 
   .carousel article p {
-    font-size: 0.5em !important;
+    font-size: 0.7em !important;
     line-height: 1em !important;
-    margin-bottom: 0.3em !important;
+    margin-bottom: 0em !important;
   }
 
   .carousel article {
@@ -2887,8 +2887,6 @@ body.homepage.is-preload #header:after {
   }
 }
 
-/* Narrow */
-
 /* Narrower */
 
 @media screen and (max-width: 840px) {
@@ -2899,7 +2897,7 @@ body.homepage.is-preload #header:after {
   textarea,
   select {
     font-size: 13pt;
-    line-height: 1.65em;
+    line-height: 1.5em;
   }
 
   .tweet {
@@ -2914,13 +2912,13 @@ body.homepage.is-preload #header:after {
   /* Footer */
 
   #footer {
-    padding: 4em 2em 4em 2em;
+    padding: 3em 2em 3em 2em;
   }
 
   /* Carousel */
 
   .carousel {
-    padding: 1.25em 0 1.25em 0;
+    padding: 1.25em 0 1em 0;
   }
 
   .carousel article {
@@ -2949,7 +2947,7 @@ body.homepage.is-preload #header:after {
   textarea,
   select {
     font-size: 12.5pt;
-    line-height: 1.5em;
+    line-height: 1.25em;
   }
 
   h2 {
@@ -2962,7 +2960,7 @@ body.homepage.is-preload #header:after {
 
   hr {
     top: 3em;
-    margin-bottom: 6em;
+    margin-bottom: 3em;
   }
 
   /* Section/Article */
